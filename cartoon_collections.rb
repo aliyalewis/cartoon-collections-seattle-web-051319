@@ -2,6 +2,7 @@ def roll_call_dwarves(name)
   number = []
   name.each.with_index(1) do |name, list_number|
     number << "#{list_number} #{name}"
+    list_number += 1
   end
   number
 end
