@@ -1,7 +1,7 @@
 def roll_call_dwarves(name)
   number = []
   name.each.with_index(1) do |name, list_number|
-    puts number.push("#{list_number} #{name}")
+    number.push("#{list_number} #{name}")
   end
 end
 
