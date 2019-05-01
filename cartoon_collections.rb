@@ -3,7 +3,6 @@ def roll_call_dwarves(name)
   name.each.with_index(1) do |name, list_number|
     puts number.push("#{list_number} #{name}")
   end
-  number
 end
 
 def summon_captain_planet# code an argument here
